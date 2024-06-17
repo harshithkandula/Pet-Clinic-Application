@@ -1,5 +1,5 @@
 # Base Image JDK
-FROM openjdk:11
+FROM openjdk:21
 
 # Let's create an argument which contains the jar file path
 ARG JAR_FILE=target/*.jar
