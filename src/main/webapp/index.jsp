@@ -54,7 +54,7 @@
             <ul>
                 <li class="ddn">
                     <button>
-                        <a href="http://localhost:9090/index.jsp">Home</a>
+                        <a href="http://34.238.171.95:9090/index.jsp">Home</a>
                     </button>
                 </li>
                 <li class="ddn">
@@ -67,10 +67,10 @@
                         <a href="">Appointments</a>
                     </button>
                     <div class="ddn-ctn">
-                        <a href="http://localhost:9090/book-appoint">Book Appointment</a>
+                        <a href="http://34.238.171.95:9090/book-appoint">Book Appointment</a>
                     </div>
                     <div class="ddn-ctn">
-                        <a href="http://localhost:9090/list">Book Appointment</a>
+                        <a href="http://34.238.171.95:9090/list">Book Appointment</a>
                     </div>
                 </li>
                 <li class="ddn">
@@ -78,12 +78,12 @@
                         <a href="">Treatment</a>
                     </button>
                     <div class="ddn-ctn">
-                        <a href="http://localhost:9090/list-appoints"> Give Treatment</a>
+                        <a href="http://34.238.171.95:9090/list-appoints"> Give Treatment</a>
                     </div>
                 </li>
                 <li style="margin-left: 50%; margin-right: 2%;">
                     <button>
-                        <a href="http://localhost:9090/book-appoint">Book Appointment</a>
+                        <a href="http://34.238.171.95:9090/book-appoint">Book Appointment</a>
                     </button>
                 </li>
                 <li>
