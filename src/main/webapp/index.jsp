@@ -54,7 +54,7 @@
             <ul>
                 <li class="ddn">
                     <button>
-                        <a href="">Home</a>
+                        <a href="http://localhost:9090/index.jsp">Home</a>
                     </button>
                 </li>
                 <li class="ddn">
@@ -67,7 +67,10 @@
                         <a href="">Appointments</a>
                     </button>
                     <div class="ddn-ctn">
-                        <a href="">Book Appointment</a>
+                        <a href="http://localhost:9090/book-appoint">Book Appointment</a>
+                    </div>
+                    <div class="ddn-ctn">
+                        <a href="http://localhost:9090/list">Book Appointment</a>
                     </div>
                 </li>
                 <li class="ddn">
@@ -75,12 +78,12 @@
                         <a href="">Treatment</a>
                     </button>
                     <div class="ddn-ctn">
-                        <a href=""> Give Treatment</a>
+                        <a href="http://localhost:9090/list-appoints"> Give Treatment</a>
                     </div>
                 </li>
                 <li style="margin-left: 50%; margin-right: 2%;">
                     <button>
-                        <a href="">Book Appointment</a>
+                        <a href="http://localhost:9090/book-appoint">Book Appointment</a>
                     </button>
                 </li>
                 <li>
@@ -95,7 +98,7 @@
                 <img src="E:\Simplilearn\Integration and Deployment\Course End Project\horse.jpg" alt="horse">
             </div>
             <div clas="slide">
-                <imgsrc="E:\Simplilearn\Integration and Deployment\Course End Project\dog.jpg" alt="dog">
+                <img src="E:\Simplilearn\Integration and Deployment\Course End Project\dog.jpg" alt="dog">
             </div>
             <div class="slide">
                 <img src="E:\Simplilearn\Integration and Deployment\Course End Project\cows.jpg" alt="cow">

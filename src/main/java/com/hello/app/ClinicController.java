@@ -22,13 +22,13 @@ public class ClinicController {
 	
 
 	@GetMapping("/list")
-	public List<Pet> listAllpets(Model model) {
+	public String listAllpets(Model model) {
 
 		List<Pet> pets = petRepo.findAll();
 
 		model.addAttribute("pets", pets);
 
-		return pets;
+		return "list-of-pets";
 	}
 	
 	@GetMapping("/book-appoint")
@@ -73,6 +73,27 @@ public class ClinicController {
 		model.addAttribute("p", p);
 		model.addAttribute("treat", t);
 		return "schedule-success";
+	}
+	
+	@GetMapping("/list-appoints")
+	public String getAppointmentsList(Model model) {
+		
+		List<Treatment> t = tr.findAll();
+		//List<Pet> p = petRepo.findById();
+		/*Optional<Pet> p = java.util.Optional.empty();
+		for(Treatment x: t) {
+			 p = petRepo.findById(x.getPid());
+		}
+		
+		Pet pd = null;
+		if(p.isPresent()) {
+			pd = p.get();
+			
+		}
+		//model.addAttribute("p", pd);*/
+		model.addAttribute("t", t);
+		
+		return "list-of-treatments";
 	}
 	
 	@GetMapping("/appoint/{id}")
