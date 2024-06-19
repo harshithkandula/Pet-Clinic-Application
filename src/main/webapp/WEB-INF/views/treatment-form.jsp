@@ -7,7 +7,7 @@
 <head>
 <style>
     form{
-     margin:20%
+     margin:5%
    }
 </style>
 <meta charset="ISO-8859-1">
