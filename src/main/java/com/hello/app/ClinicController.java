@@ -20,6 +20,10 @@ public class ClinicController {
 	@Autowired
 	TreatmentRepo tr;
 	
+	@GetMapping("/")
+	public String openHomePage() {
+		return "index";
+	}
 
 	@GetMapping("/list")
 	public String listAllpets(Model model) {

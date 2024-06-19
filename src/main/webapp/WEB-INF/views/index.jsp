@@ -70,7 +70,10 @@
                         <a href="http://34.238.171.95:9090/book-appoint">Book Appointment</a>
                     </div>
                     <div class="ddn-ctn">
-                        <a href="http://34.238.171.95:9090/list">Book Appointment</a>
+                        <a href="http://34.238.171.95:9090/list">List of Pets</a>
+                    </div>
+                     <div class="ddn-ctn">
+                        <a href="http://34.238.171.95:9090/list-appoints">List of Appointments</a>
                     </div>
                 </li>
                 <li class="ddn">
