@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ include file="header.jsp" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,8 +15,6 @@
           <tr>
              <th>Pet ID</th>
              <th>Appointment ID</th>
-             <th>Pet Name</th>
-             <th>Master Name</th>
              <th>Appointment Date and Time</th>
              <th>Prescribe</th>
           </tr>

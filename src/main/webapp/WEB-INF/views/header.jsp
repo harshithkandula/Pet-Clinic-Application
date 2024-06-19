@@ -1,10 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
-  <html>
-    <head>
-       <style>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+  <style>
 
        *{
          background-color: bisque;
@@ -41,13 +42,11 @@
             display: block;
         }
 
-       </style>
-       <title>Shawn Pet Clinic: Home</title>
-    </head>
-    <meta charset="ISO-8859-1">
-     <title>Shawn Pet Clinic</title>
-    <body>
-        <div style="color: coral;">
+  </style>
+<title></title>
+</head>
+<body>
+     <div style="color: coral;">
             <h1>Welcome to Shawn Pet Clinic</h1>
         </div> 
             <div>
@@ -96,39 +95,8 @@
                 </li>
             </ul>
          </div>
-         <div style="margin: 5%;">
-            <div class="slide">
-                <img src="E:\Simplilearn\Integration and Deployment\Course End Project\horse.jpg" alt="horse">
-            </div>
-            <div class="slide">
-                <img src="E:\Simplilearn\Integration and Deployment\Course End Project\dog.jpg" alt="dog">
-            </div>
-            <div class="slide">
-                <img src="E:\Simplilearn\Integration and Deployment\Course End Project\cows.jpg" alt="cow">
-            </div>
-            <div class="slide">
-                <img src="E:\Simplilearn\Integration and Deployment\Course End Project\sheep.jpg" alt="sheep">
-            </div>
-         </div>
-
-         <script>
-             let slideIndex = 0;
-             slideShow();
-
-             function slideShow(){
-                let i;
-                let photos = document.getElementsByClassName("slide");
-                for(i=0;i<photos.length;i++){
-                    photos[i].style.display= "none";
-                }
-                slideIndex++
-                if(slideIndex>photos.length){
-                    slideIndex =1;
-                }
-
-                photos[slideIndex-1].style.display= "block";
-                setTimeout(slideShow, 2000);
-             }
-         </script>
-    </body>
-  </html>
+                  
+       
+         
+</body>
+</html>
