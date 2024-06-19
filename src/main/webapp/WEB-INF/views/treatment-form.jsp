@@ -5,6 +5,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+    form{
+     margin:20%
+   }
+</style>
 <meta charset="ISO-8859-1">
 <title>Prescription</title>
 </head>
