@@ -5,11 +5,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+   div{
+      margin: 5%
+   }
+</style>
 <meta charset="ISO-8859-1">
 <title>Schedule Appointment</title>
 </head>
 <body>
-    <p>Name: ${pet.getPetName()}</p>
+   <div>
+       <p>Name: ${pet.getPetName()}</p>
     <p>Master Name: ${pet.getPetOwner()}</p>
     <p>Pet Type: ${pet.getPetType()}</p>
     <p>Pet Breed: ${pet.getPetBreed()}</p>
@@ -32,5 +38,7 @@
         
         <input type="submit" value="Book">
     </form>
+  </div>
+    
 </body>
 </html>

@@ -5,12 +5,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+   div{
+      margin: 5%
+   }
+</style>
 <meta charset="ISO-8859-1">
 <title>Appointment Booked: Success</title>
 </head>
 <body>
-    
-    <h2>Appointment Booked with ID ${t.getAid()}</h2>
+   <div>
+        <h2>Appointment Booked with ID ${t.getAid()}</h2>
     
     <p>Name: ${p.getPetName()}</p>
     <p>Master Name: ${p.getPetOwner()}</p>
@@ -21,5 +26,7 @@
     <p>Health Problem: ${treat.getHealthIssue()}</p>
     <p>Appointment Date: ${treat.getAppointmentDate()}</p>
     <p>Appointment Time: ${treat.getAppointmentTime()}</p>
+  </div>
+    
 </body>
 </html>

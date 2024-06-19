@@ -5,11 +5,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+    div{
+      margin:5%
+    }
+</style>
 <meta charset="ISO-8859-1">
 <title>Treatment Corner</title>
 </head>
 <body>
-      
+   <div>  
       <h2>List Of Patients</h2>
       <table>
           <tr>
@@ -27,5 +32,6 @@
                  </tr>
           </c:forEach>
       </table>
+   </div>    
 </body>
 </html>
