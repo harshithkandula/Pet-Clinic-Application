@@ -5,16 +5,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-   div{
-      margin: 5%
-   }
-</style>
 <meta charset="ISO-8859-1">
 <title>Appointment Booked: Success</title>
 </head>
 <body>
-   <div>
+   <div style="margin:10%">
         <h2>Appointment Booked with ID ${t.getAid()}</h2>
     
     <p>Name: ${p.getPetName()}</p>

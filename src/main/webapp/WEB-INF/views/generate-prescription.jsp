@@ -5,16 +5,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-    div{
-      margin:5%
-    }
-</style>
 <meta charset="ISO-8859-1">
 <title>Prescription</title>
 </head>
 <body>
-     <div>  
+     <div style="margin:10%">  
         <h3>Thank you having confidence in us</h3>
         <p>Name: ${p.getPetName()}</p>
         <p>Master Name: ${p.getPetOwner()}</p>

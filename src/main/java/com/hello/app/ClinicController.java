@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class ClinicController {
@@ -98,6 +99,36 @@ public class ClinicController {
 		model.addAttribute("t", t);
 		
 		return "list-of-treatments";
+	}
+	
+	@GetMapping
+	public String openSearchAppointmentByIdForm(Model model) {
+		
+		List<Treatment> tmtL = tr.findAll();
+		
+		model.addAttribute("tmt", tmtL);
+		
+		return "searchpscpbyID";
+	}
+	
+	@PostMapping("/data-appoint")
+	public String getPrescription(Model model, @RequestParam int id) {
+		
+		Treatment t = null;
+		Pet p = null;
+		Optional<Treatment> tmt = tr.findById(id);
+		if(tmt.isPresent()) {
+			t = tmt.get();
+		}
+		
+		Optional<Pet> pt = petRepo.findById(t.getPid());
+		if(pt.isPresent()) {
+			p = pt.get();
+		}
+		
+		model.addAttribute("t", t);
+		model.addAttribute("p", p);
+		return "";
 	}
 	
 	@GetMapping("/appoint/{id}")

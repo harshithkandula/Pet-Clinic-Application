@@ -14,7 +14,14 @@
 <title>Prescription</title>
 </head>
 <body>
-     
+  <div>
+    <p>Name: ${p.getPetName()}</p>
+    <p>Master Name: ${p.getPetOwner()}</p>
+    <p>Pet Type: ${p.getPetType()}</p>
+    <p>Pet Breed: ${p.getPetBreed()}</p>
+    <p>Pet Age: ${p.getPetAge()}</p>
+    <p>Pet Weight: ${p.getPetWeight()}</p>
+    <br>
     <form action="" method="post" modelAttribute="t">
         <label>Pet ID</label>
         <input type="number" name="pid" value="${t.getPid()}">
@@ -33,5 +40,7 @@
         
         <input type="submit" value="OK">
     </form>
+ </div>
+    
 </body>
 </html>
