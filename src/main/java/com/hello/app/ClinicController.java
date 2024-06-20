@@ -21,7 +21,7 @@ public class ClinicController {
 	@Autowired
 	TreatmentRepo tr;
 	
-	@GetMapping("/")
+	@GetMapping("/home")
 	public String openHomePage() {
 		return "index";
 	}

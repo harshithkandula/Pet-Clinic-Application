@@ -54,7 +54,7 @@
             <ul>
                 <li class="ddn">
                     <button>
-                        <a href="http://54.204.188.134:9090/index.jsp">Home</a>
+                        <a href="http://54.204.188.134:9090/">Home</a>
                     </button>
                 </li>
                 <li class="ddn">
