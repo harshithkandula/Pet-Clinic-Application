@@ -14,7 +14,7 @@
 <title>Prescription</title>
 </head>
 <body>
-  <div>
+  <div style="margin:10%">
     <p>Name: ${p.getPetName()}</p>
     <p>Master Name: ${p.getPetOwner()}</p>
     <p>Pet Type: ${p.getPetType()}</p>
