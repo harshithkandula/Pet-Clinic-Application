@@ -18,7 +18,7 @@
         <p>Pet Age: ${p.getPetAge()}</p>
         <p>Pet Weight: ${p.getPetWeight()}</p>
         
-        <p>Health issue: ${t.getAid()}</p>
+        <p>Health issue: ${t.getHealthIssue()}</p>
         <p>Appointment Date: ${t.getAppointmentDate()}</p>
         <p>Appointment Time: ${t.getAppointmentTime()}</p>
         <p>Prescription: ${t.getPrescription()}</p>

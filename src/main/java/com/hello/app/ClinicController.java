@@ -67,6 +67,17 @@ public class ClinicController {
 		return "ScheduleAppoint";
 	}
 	
+	@GetMapping("/data-treament-list")
+	public String getTreamentData(Model model) {
+		List<Joint> tl;
+		Pet p;
+		Treatment t;
+		
+		//Joint j1 = new Joint();
+		
+		return "";
+	}
+	
 	@PostMapping("/schedule-appoint")
 	public String ScheduleAppointment(Model model, @ModelAttribute("t") Treatment t) {
 		t = tr.save(t);
@@ -101,7 +112,7 @@ public class ClinicController {
 		return "list-of-treatments";
 	}
 	
-	@GetMapping
+	@GetMapping("/searchById")
 	public String openSearchAppointmentByIdForm(Model model) {
 		
 		List<Treatment> tmtL = tr.findAll();
@@ -128,7 +139,7 @@ public class ClinicController {
 		
 		model.addAttribute("t", t);
 		model.addAttribute("p", p);
-		return "";
+		return "generate-prescription";
 	}
 	
 	@GetMapping("/appoint/{id}")
